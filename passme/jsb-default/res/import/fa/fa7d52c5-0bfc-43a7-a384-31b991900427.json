@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"starAnimation","_duration":0.25,"speed":0.4,"wrapMode":"22","curveData":{"props":{"scale":[{"frame":0,"value":{"__type__":"cc.Vec2","x":0.22,"y":0.22}},{"frame":0.25,"value":{"__type__":"cc.Vec2","x":0.18,"y":0.18}}]}}}

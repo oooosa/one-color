@@ -1,0 +1,18 @@
+
+
+HOW WE CAN MAKE A PROTOTYPE WITHIN 5 DAYS OR LESSS
+-Pick ideas with only 1 core mechanic that is fast to develop and easy to manage
+-Avoid minor details that could take much time but added value is less than 1%
+	-In Zombroad adjusting car's various complex properties (suspension, tarction, mass, acceleration etc...)
+	-In Topairy spending lots of time on fixing the accuracy of cutting like 
+		-Fixing conditions where moving fast will make leaves hang in air
+		-Setting origins for individual plant shapes
+	-In Feed The Bird spending most of the time adjusting the Rope Physics
+	-In Electrical Manager we spend 1 month to just test the first version because we waited to develop 5 mini games to test the game & the project was highly mismanaged that cost use huge time to fix/add further updates
+
+
+Current Mind Set
+making creatives from already developed prototype
+
+Reverse Mind Set / Creatives Mind Set
+first decide creatives and then based on creatives will develop the prototype

@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"catchMovement","_duration":2,"speed":1.3,"wrapMode":"22","curveData":{"props":{"x":[{"frame":0,"value":75.6,"curve":"expoOut"},{"frame":2,"value":-128}]}}}

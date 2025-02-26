@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"suddenRotate","_duration":2.05,"speed":0.5,"wrapMode":"22","curveData":{"props":{"rotation":[{"frame":0.25,"value":0,"curve":"quartInOut"},{"frame":1.9166666666666667,"value":360},{"frame":2.05,"value":360}]}}}

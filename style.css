@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(268deg, #f2bb7b, #f1d0fd);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+    
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+
+#container{
+    margin: 0px auto;
+    font-family: sans-serif;
+    padding: 10px 16px;
+    color:#1d1d1d;
+    box-shadow: 0px 0px 43px 2px #ccc;
+    margin-top: 17px;
+    border-radius: 15px;
+    margin-bottom: 17px;
+    max-width: 900px;
+    width: 96%;
+    border: 0px solid;
+    background:white;
+}
+
+#logo{
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+#logo img:nth-child(1){
+    width: 21%;
+}
+#aboutUs{margin: 14px 0px;font-size: 14px;text-align: center;}
+#contactUs{margin: 14px 0px;font-size: 14px;text-align: center;}
+.title{
+    text-align: center;
+    background: #ffffff;
+    font-size: 22px;
+    color: #1a73e8;
+    margin-top: 49px;
+}
+#gamesContainer{
+    width: 100%;
+    margin: 0px auto;
+}
+.game{
+    width: 100%;
+    padding-bottom: 20%; /* 16:9 */
+    position: relative;
+    margin: 46px 0px;
+    border-radius: 9px;
+    box-shadow: 0px 46px 27px -44px #b1b1b1;
+    border-radius: 17px;
+    background: white;
+}
+.game img:nth-child(1){
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0px solid #ccc;
+    border-radius: 17px;
+    background:white;
+}
+.game a:nth-child(2){
+    width: 100%;
+    font-size: 5vw;
+    text-decoration: none;
+    position: absolute;
+    background: #505050cf;
+    color: white;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+    transition-timing-function: ease-out;
+    border-radius: 17px;
+    padding: 5px 5px 0px 2px;
+}
+.game a:nth-child(2):hover{
+    opacity: 1;
+}
+.game a:nth-child(2) div:nth-child(1){
+    font-size: 25px;
+}
+.game a:nth-child(2) div:nth-child(2){
+    font-size: 14px;
+}
+@keyframes showDescription{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+

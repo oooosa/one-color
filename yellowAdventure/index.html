@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+            overflow: hidden;
+		}
+        #canvasArea {
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
+
+        @font-face{ font-family : "gdjs_font_kenvector_future_thin.ttf"; src : url('kenvector_future_thin.ttf') format('truetype'); }
+	</style>
+    <!-- Libs and GDJS core files : -->
+		<script src="code.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-27267608-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-27267608-7');
+</script>
+
+</head>
+<body>
+    <script type="text/javascript" src="http://ad.leadboltmobile.net/show_app_ad.js?section_id=755453249"></script>
+    <div id="canvasArea"></div>
+    <div style="font-family: 'gdjs_font_kenvector_future_thin.ttf';">.</div>
+	<script>
+
+    (function() {
+        //Initialization
+        gdjs.registerObjects();
+        gdjs.registerAutomatisms();
+        gdjs.registerGlobalCallbacks();
+
+        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+
+        //Create a renderer
+        var canvasArea = document.getElementById("canvasArea");
+        game.createStandardCanvas(canvasArea);
+
+        //Bind keyboards/mouse/touch events
+        game.bindStandardEvents(window, document);
+
+        //Load all assets and start the game
+        game.loadAllAssets(onAssetsLoaded);
+        function onAssetsLoaded() {
+            game.startStandardGameLoop();
+        }
+    })();
+
+	</script>
+    
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"speed_boost_animation","_duration":0.5,"speed":0.4,"wrapMode":"0","curveData":{"props":{"x":[{"frame":0,"value":-37.6},{"frame":0.5,"value":38.3}]}},"events":[{"frame":0.25,"func":"makeArrow","params":[]},{"frame":0.5,"func":"finish","params":[]}]}
